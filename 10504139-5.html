@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>第五人格不專業人物介紹</title>
+<style>
+	#header {height:150px;background-color:black;background-image: linear-gradient(black, gray);padding:1em}
+    #left {width:200px;height:1500px; float:left;background-color:#000000;padding:1em}
+    #right {width:300px;height:1500px; float:right;background-color:#000000;padding:1em}
+    #center {height:1500px;background-color:#404040;padding:1em}
+    h1{color: white;font-size: 60px;float: center;text-align: center;text-shadow: 5px 5px 7px black;font-family:DFKai-sb}
+    p{color: white;font-size: 20px;text-indent: 40px;font-family:PMingLiU}
+    h2{color: white;font-size: 40px;float: center;text-align: center;font-family:DFKai-sb}
+    h3{color: white;font-size: 30px;float: center;text-align: center;font-family:DFKai-sb}
+    h4{color: white;font-size: 20px;float: center;text-align: center;font-family:DFKai-sb}
+    button{background: #66ffff;color: #6600cc;font-size: 20px;font-family:PMingLiU}
+</style>
+</head>
+<body>
+<div id="header">
+<h1>第五人格不專業人物介紹</h1>
+</div>
+<div id="left">
+<h2>角色列表</h2>
+<button onclick="display1();">求生者</button><br><br>
+<button id=Lucky style="display:none" onclick="Lucky();">幸運兒</button>
+<button id=Doctor style="display:none" onclick="Doctor();">醫生</button>
+<button id=Lawyer style="display:none" onclick="Lawyer();">律師</button>
+<button id=Gardener style="display:none" onclick="Gardener();">園丁</button>
+<button id=Philanthropist style="display:none" onclick="Philanthropist();">慈善家</button><br>
+<button style="background: #ff9966"onclick="display2();">監管者</button><br><br>
+<button id=Factory style="background: #ff9966;display:none" onclick="Factory();">廠長</button>
+<button id=Jack style="background: #ff9966;display:none" onclick="Jack();">傑克</button><br>
+<button id=home style="background: #66ff33" onclick="home();">回首頁</button>
+</div>
+<div id="right">
+<h2>外部連結</h2>
+<h3><a href="https://www.identity-v.com/pc/index.html" target="_blank">官方網站</a></h3>
+<h3><a href="https://forum.gamer.com.tw/A.php?bsn=34038" target="_blank">巴哈姆特</a></h3>
+<h3><a href="https://space.bilibili.com/311864840/#/" target="_blank">潘大帥在減肥</a></h3>
+<h4><a href="https://search.bilibili.com/video?keyword=%E5%82%91%E5%85%8B%E6%8F%90%E9%AB%98%E7%8F%AD" target="_blank">傑克提高班</a></h4>
+<h4><a href="https://search.bilibili.com/video?keyword=%E7%B4%85%E8%9D%B6%E6%8F%90%E9%AB%98%E7%8F%AD" target="_blank">紅蝶提高班</a></h4>
+<h4><a href="https://search.bilibili.com/video?keyword=%E8%A3%98%E8%A3%98%E6%8F%90%E9%AB%98%E7%8F%AD" target="_blank">裘裘提高班(小丑)</a></h4>
+<h4><a href="https://search.bilibili.com/video?keyword=%E5%82%98%E5%93%A5%E6%8F%90%E9%AB%98%E7%8F%AD" target="_blank">傘哥提高班(宿傘)</a></h4>
+<h4><a href="https://search.bilibili.com/video?keyword=%E6%B3%A5%E6%BD%AD%E4%BA%BA%E7%9A%87%E6%95%99%E5%AD%B8" target="_blank">泥潭人皇教學(求生者)</a></h4>
+<h3><a href="https://space.bilibili.com/9018813/#/" target="_blank">零之啟</a></h3>
+<h3><a href="https://space.bilibili.com/349538449/#/" target="_blank">皮皮限</a></h3>
+<h3><a href="https://space.bilibili.com/96579773/#/" target="_blank">十三叔</a></h3>
+</div>
+<div id="center">
+<p id="home1">第五人格是一款非對稱性對抗競技手遊，由一名監管者對上四名求生者,玩家可以選擇要扮演監管者或是求生者。求生者主要任務是破譯完場上五台密碼機並打開大門逃生；監管者則是要想辦法將求生者綁上狂歡之椅淘汰。</p>
+<img id="home2" src= " https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2018/07/17/99/5009215.jpg&x=0&y=0&sw=0&sh=0&sl=W&fw=1050 " /width= "712" >
+<img id="home3" src= " https://i.ytimg.com/vi/eqhi3PGgzxo/hqdefault.jpg " /width= "712" >
+<h2 id="Lucky1" style="display:none">幸運兒</h2>
+<img id="Lucky2" src= " https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2018/09/28/99/5325909.jpg&x=0&y=0&sw=0&sh=0&sl=W&fw=1050 " /width= "712" style="display:none">
+<p id="Lucky3"style="display:none">幸運兒是初始角色之一，沒有初始道具，但開箱子有高機率可以拿到想要的道具。沒有正面加乘的狀態，但相對的也沒有負面狀態，是一個很均衡的角色。</p>
+<img id="Lucky4" src= " http://puui.qpic.cn/qqvideo_ori/0/s0668ojhfo9_496_280/0 " /width= "712" style="display:none">
+<h2 id="Doctor1" style="display:none">醫生</h2>
+<img id="Doctor2" src= " http://fun-channel.net/wp-content/uploads/2018/08/doctor_678_381.jpg " /width= "712" style="display:none">
+<p id="Doctor3"style="display:none">醫生是初始角色之一，初始道具為針筒，可以治療自己，針筒用得好的話醫生是個讓監管者很頭痛的角色，但缺點是醫生板窗交互速度較慢，容易被監管者擊中。</p>
+<img id="Doctor4" src= " https://ttshow.tw/media/uploads/2018/08/16/34892232_1982337608467191_4872729968854958080_n-1.jpg " /width= "712" style="display:none">
+<h2 id="Lawyer1" style="display:none">律師</h2>
+<img id="Lawyer2" src= " https://cdn.hk01.com/di/media/images/1607515/org/0d6ae8bdbd531482a7d9cee90212b86c.jpg/rKoTYyG8L-tCfdfVFl088ZOR3QxjhLOw-xt5K_sbeSs?v=w1920 " /width= "712" style="display:none">
+<p id="Lawyer3"style="display:none">律師是初始角色之一，初始道具為地圖，可以查看隊友及密碼機位置，更快地找到隊友。缺點是板窗交互速度較慢，容易被監管者擊中。</p>
+<img id="Lawyer4" src= " http://rs.0.gaoshouyou.com/i/36/bb/23361e1755bbdb4c8cd6840c58402ec3. " /width= "712" style="display:none">
+<h2 id="Gardener1" style="display:none">園丁</h2>
+<img id="Gardener2" src= " https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2018/09/25/99/5312338.jpg&x=0&y=0&sw=0&sh=0&sl=W&fw=800 " /width= "712" style="display:none">
+<p id="Gardener3"style="display:none">園丁是初始角色之一，初始道具為工具箱，可拆除場上的狂歡之椅，若使用的好可以讓監管者找不到狂歡之椅，增加隊友的逃生機會，但拆除狂歡之椅時也會暴露自身位置給監管者知道。</p>
+<img id="Gardener4" src= " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnu-1c8wsxdDKm1uMMUPfKU49fHP2Z-YjpCTyGdxA3oYT9tJit " /width= "712" style="display:none">
+<h2 id="Philanthropist1" style="display:none">慈善家</h2>
+<img id="Philanthropist2" src= " https://cdn.hk01.com/di/media/images/1609543/org/8057515df5be066e00a7be392b48b4fe.jpg/xa5tjX5hqWNtMoaBliH97WdajX-dOm4pWIVzuFiFc7g?v=w1920 " /width= "712" style="display:none">
+<p id="Philanthropist3"style="display:none">慈善家是初始角色之一，初始道具為手電筒，用手電筒持續照射監管者可使監管者暈眩，加上慈善家板窗交互速度快，慈善家的逃生能力是相當不錯的。</p>
+<img id="Philanthropist4" src= " https://img.itw01.com/images/2018/05/03/16/3646_HWApyq_GGFSHEX.jpg " /width= "712" style="display:none">
+<h2 id="Factory1" style="display:none">廠長</h2>
+<img id="Factory2" src= " https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2018/08/21/99/5159867.jpg&x=0&y=0&sw=0&sh=0&sl=W&fw=1050 " /width= "712" style="display:none">
+<p id="Factory3"style="display:none">廠長的特點在於他的傀儡娃娃，若娃娃用的好求生者不好應付，但除了娃娃外廠長的追擊能力較弱。</p>
+<img id="Factory4" src= " http://thumb11.jfcdns.com/2018-04/bce5ad04927d121a.png " /width= "712" style="display:none">
+<h2 id="Jack1" style="display:none">傑克</h2>
+<img id="Jack2" src= " https://cdn.hk01.com/di/media/images/1635542/org/afdb828c2640a88cf0e08469b5f86e43.jpg/Lkt9dn3eUCM2ThHfdcpxVznsIhhUn2PRxRQGjcUUBo0?v=w1920 " /width= "712" style="display:none">
+<p id="Jack3"style="display:none">傑克可怕的地方在於霧刃，以及他會隱形，很難判斷他到底從哪個方向來，追擊能力強。</p>
+<img id="Jack4" src= " https://image.pttnews.cc/2018/05/15/b03cd3062a/167ee8c56c51206750bda24f077ecb92.jpg?redirect=true " /width= "712" style="display:none">
+
+</div>
+<script>
+	function display1(){
+		var Lucky = document.getElementById("Lucky");
+		if (Lucky.style.display === "none") {Lucky.style.display = "block";} 
+		else {Lucky.style.display = "none";}
+		var Doctor = document.getElementById("Doctor");
+		if (Doctor.style.display === "none") {Doctor.style.display = "block";} 
+		else {Doctor.style.display = "none";}
+		var Lawyer = document.getElementById("Lawyer");
+		if (Lawyer.style.display === "none") {Lawyer.style.display = "block";} 
+		else {Lawyer.style.display = "none";}
+		var Gardener = document.getElementById("Gardener");
+		if (Gardener.style.display === "none") {Gardener.style.display = "block";} 
+		else {Gardener.style.display = "none";}
+		var Philanthropist = document.getElementById("Philanthropist");
+		if (Philanthropist.style.display === "none") {Philanthropist.style.display = "block";} 
+		else {Philanthropist.style.display = "none";}}
+
+
+	function display2(){
+		var Factory = document.getElementById("Factory");
+		if (Factory.style.display === "none") {Factory.style.display = "block";} 
+		else {Factory.style.display = "none";}
+		var Jack = document.getElementById("Jack");
+		if (Jack.style.display === "none") {Jack.style.display = "block";} 
+		else {Jack.style.display = "none";}}
+
+
+function home(){
+var home1 = document.getElementById("home1");
+var home2 = document.getElementById("home2");
+var home3 = document.getElementById("home3");
+var Lucky1 = document.getElementById("Lucky1");
+var Lucky2 = document.getElementById("Lucky2");
+var Lucky3 = document.getElementById("Lucky3");
+var Lucky4 = document.getElementById("Lucky4");
+var Doctor1 = document.getElementById("Doctor1");
+var Doctor2 = document.getElementById("Doctor2");
+var Doctor3 = document.getElementById("Doctor3");
+var Doctor4 = document.getElementById("Doctor4");
+var Lawyer1 = document.getElementById("Lawyer1");
+var Lawyer2 = document.getElementById("Lawyer2");
+var Lawyer3 = document.getElementById("Lawyer3");
+var Lawyer4 = document.getElementById("Lawyer4");
+var Gardener1 = document.getElementById("Gardener1");
+var Gardener2 = document.getElementById("Gardener2");
+var Gardener3 = document.getElementById("Gardener3");
+var Gardener4 = document.getElementById("Gardener4");
+var Philanthropist1 = document.getElementById("Philanthropist1");
+var Philanthropist2 = document.getElementById("Philanthropist2");
+var Philanthropist3 = document.getElementById("Philanthropist3");
+var Philanthropist4 = document.getElementById("Philanthropist4");
+var Factory1 = document.getElementById("Factory1");
+var Factory2 = document.getElementById("Factory2");
+var Factory3 = document.getElementById("Factory3");
+var Factory4 = document.getElementById("Factory4");
+var Jack1 = document.getElementById("Jack1");
+var Jack2 = document.getElementById("Jack2");
+var Jack3 = document.getElementById("Jack3");
+var Jack4 = document.getElementById("Jack4");
+home1.style.display = "block";
+home2.style.display = "block";
+home3.style.display = "block";
+Lucky1.style.display ="none";
+Lucky2.style.display ="none";
+Lucky3.style.display ="none";
+Lucky4.style.display ="none";
+Doctor1.style.display ="none";
+Doctor2.style.display ="none";
+Doctor3.style.display ="none";
+Doctor4.style.display ="none";
+Lawyer1.style.display ="none";
+Lawyer2.style.display ="none";
+Lawyer3.style.display ="none";
+Lawyer4.style.display ="none";
+Gardener1.style.display ="none";
+Gardener2.style.display ="none";
+Gardener3.style.display ="none";
+Gardener4.style.display ="none";
+Philanthropist1.style.display ="none";
+Philanthropist2.style.display ="none";
+Philanthropist3.style.display ="none";
+Philanthropist4.style.display ="none";
+Factory1.style.display ="none";
+Factory2.style.display ="none";
+Factory3.style.display ="none";
+Factory4.style.display ="none";
+Jack1.style.display ="none";
+Jack2.style.display ="none";
+Jack3.style.display ="none";
+Jack4.style.display ="none";
+}
+
+function Lucky(){
+var home1 = document.getElementById("home1");
+var home2 = document.getElementById("home2");
+var home3 = document.getElementById("home3");
+var Lucky1 = document.getElementById("Lucky1");
+var Lucky2 = document.getElementById("Lucky2");
+var Lucky3 = document.getElementById("Lucky3");
+var Lucky4 = document.getElementById("Lucky4");
+var Doctor1 = document.getElementById("Doctor1");
+var Doctor2 = document.getElementById("Doctor2");
+var Doctor3 = document.getElementById("Doctor3");
+var Doctor4 = document.getElementById("Doctor4");
+var Lawyer1 = document.getElementById("Lawyer1");
+var Lawyer2 = document.getElementById("Lawyer2");
+var Lawyer3 = document.getElementById("Lawyer3");
+var Lawyer4 = document.getElementById("Lawyer4");
+var Gardener1 = document.getElementById("Gardener1");
+var Gardener2 = document.getElementById("Gardener2");
+var Gardener3 = document.getElementById("Gardener3");
+var Gardener4 = document.getElementById("Gardener4");
+var Philanthropist1 = document.getElementById("Philanthropist1");
+var Philanthropist2 = document.getElementById("Philanthropist2");
+var Philanthropist3 = document.getElementById("Philanthropist3");
+var Philanthropist4 = document.getElementById("Philanthropist4");
+var Factory1 = document.getElementById("Factory1");
+var Factory2 = document.getElementById("Factory2");
+var Factory3 = document.getElementById("Factory3");
+var Factory4 = document.getElementById("Factory4");
+var Jack1 = document.getElementById("Jack1");
+var Jack2 = document.getElementById("Jack2");
+var Jack3 = document.getElementById("Jack3");
+var Jack4 = document.getElementById("Jack4");
+home1.style.display = "none";
+home2.style.display = "none";
+home3.style.display = "none";
+Lucky1.style.display ="block";
+Lucky2.style.display ="block";
+Lucky3.style.display ="block";
+Lucky4.style.display ="block";
+Doctor1.style.display ="none";
+Doctor2.style.display ="none";
+Doctor3.style.display ="none";
+Doctor4.style.display ="none";
+Lawyer1.style.display ="none";
+Lawyer2.style.display ="none";
+Lawyer3.style.display ="none";
+Lawyer4.style.display ="none";
+Gardener1.style.display ="none";
+Gardener2.style.display ="none";
+Gardener3.style.display ="none";
+Gardener4.style.display ="none";
+Philanthropist1.style.display ="none";
+Philanthropist2.style.display ="none";
+Philanthropist3.style.display ="none";
+Philanthropist4.style.display ="none";
+Factory1.style.display ="none";
+Factory2.style.display ="none";
+Factory3.style.display ="none";
+Factory4.style.display ="none";
+Jack1.style.display ="none";
+Jack2.style.display ="none";
+Jack3.style.display ="none";
+Jack4.style.display ="none";
+}
+
+function Doctor(){
+var home1 = document.getElementById("home1");
+var home2 = document.getElementById("home2");
+var home3 = document.getElementById("home3");
+var Lucky1 = document.getElementById("Lucky1");
+var Lucky2 = document.getElementById("Lucky2");
+var Lucky3 = document.getElementById("Lucky3");
+var Lucky4 = document.getElementById("Lucky4");
+var Doctor1 = document.getElementById("Doctor1");
+var Doctor2 = document.getElementById("Doctor2");
+var Doctor3 = document.getElementById("Doctor3");
+var Doctor4 = document.getElementById("Doctor4");
+var Lawyer1 = document.getElementById("Lawyer1");
+var Lawyer2 = document.getElementById("Lawyer2");
+var Lawyer3 = document.getElementById("Lawyer3");
+var Lawyer4 = document.getElementById("Lawyer4");
+var Gardener1 = document.getElementById("Gardener1");
+var Gardener2 = document.getElementById("Gardener2");
+var Gardener3 = document.getElementById("Gardener3");
+var Gardener4 = document.getElementById("Gardener4");
+var Philanthropist1 = document.getElementById("Philanthropist1");
+var Philanthropist2 = document.getElementById("Philanthropist2");
+var Philanthropist3 = document.getElementById("Philanthropist3");
+var Philanthropist4 = document.getElementById("Philanthropist4");
+var Factory1 = document.getElementById("Factory1");
+var Factory2 = document.getElementById("Factory2");
+var Factory3 = document.getElementById("Factory3");
+var Factory4 = document.getElementById("Factory4");
+var Jack1 = document.getElementById("Jack1");
+var Jack2 = document.getElementById("Jack2");
+var Jack3 = document.getElementById("Jack3");
+var Jack4 = document.getElementById("Jack4");
+home1.style.display = "none";
+home2.style.display = "none";
+home3.style.display = "none";
+Lucky1.style.display ="none";
+Lucky2.style.display ="none";
+Lucky3.style.display ="none";
+Lucky4.style.display ="none";
+Doctor1.style.display ="block";
+Doctor2.style.display ="block";
+Doctor3.style.display ="block";
+Doctor4.style.display ="block";
+Lawyer1.style.display ="none";
+Lawyer2.style.display ="none";
+Lawyer3.style.display ="none";
+Lawyer4.style.display ="none";
+Gardener1.style.display ="none";
+Gardener2.style.display ="none";
+Gardener3.style.display ="none";
+Gardener4.style.display ="none";
+Philanthropist1.style.display ="none";
+Philanthropist2.style.display ="none";
+Philanthropist3.style.display ="none";
+Philanthropist4.style.display ="none";
+Factory1.style.display ="none";
+Factory2.style.display ="none";
+Factory3.style.display ="none";
+Factory4.style.display ="none";
+Jack1.style.display ="none";
+Jack2.style.display ="none";
+Jack3.style.display ="none";
+Jack4.style.display ="none";
+}
+function Lawyer(){
+var home1 = document.getElementById("home1");
+var home2 = document.getElementById("home2");
+var home3 = document.getElementById("home3");
+var Lucky1 = document.getElementById("Lucky1");
+var Lucky2 = document.getElementById("Lucky2");
+var Lucky3 = document.getElementById("Lucky3");
+var Lucky4 = document.getElementById("Lucky4");
+var Doctor1 = document.getElementById("Doctor1");
+var Doctor2 = document.getElementById("Doctor2");
+var Doctor3 = document.getElementById("Doctor3");
+var Doctor4 = document.getElementById("Doctor4");
+var Lawyer1 = document.getElementById("Lawyer1");
+var Lawyer2 = document.getElementById("Lawyer2");
+var Lawyer3 = document.getElementById("Lawyer3");
+var Lawyer4 = document.getElementById("Lawyer4");
+var Gardener1 = document.getElementById("Gardener1");
+var Gardener2 = document.getElementById("Gardener2");
+var Gardener3 = document.getElementById("Gardener3");
+var Gardener4 = document.getElementById("Gardener4");
+var Philanthropist1 = document.getElementById("Philanthropist1");
+var Philanthropist2 = document.getElementById("Philanthropist2");
+var Philanthropist3 = document.getElementById("Philanthropist3");
+var Philanthropist4 = document.getElementById("Philanthropist4");
+var Factory1 = document.getElementById("Factory1");
+var Factory2 = document.getElementById("Factory2");
+var Factory3 = document.getElementById("Factory3");
+var Factory4 = document.getElementById("Factory4");
+var Jack1 = document.getElementById("Jack1");
+var Jack2 = document.getElementById("Jack2");
+var Jack3 = document.getElementById("Jack3");
+var Jack4 = document.getElementById("Jack4");
+home1.style.display = "none";
+home2.style.display = "none";
+home3.style.display = "none";
+Lucky1.style.display ="none";
+Lucky2.style.display ="none";
+Lucky3.style.display ="none";
+Lucky4.style.display ="none";
+Doctor1.style.display ="none";
+Doctor2.style.display ="none";
+Doctor3.style.display ="none";
+Doctor4.style.display ="none";
+Lawyer1.style.display ="block";
+Lawyer2.style.display ="block";
+Lawyer3.style.display ="block";
+Lawyer4.style.display ="block";
+Gardener1.style.display ="none";
+Gardener2.style.display ="none";
+Gardener3.style.display ="none";
+Gardener4.style.display ="none";
+Philanthropist1.style.display ="none";
+Philanthropist2.style.display ="none";
+Philanthropist3.style.display ="none";
+Philanthropist4.style.display ="none";
+Factory1.style.display ="none";
+Factory2.style.display ="none";
+Factory3.style.display ="none";
+Factory4.style.display ="none";
+Jack1.style.display ="none";
+Jack2.style.display ="none";
+Jack3.style.display ="none";
+Jack4.style.display ="none";
+}
+
+function Gardener(){
+var home1 = document.getElementById("home1");
+var home2 = document.getElementById("home2");
+var home3 = document.getElementById("home3");
+var Lucky1 = document.getElementById("Lucky1");
+var Lucky2 = document.getElementById("Lucky2");
+var Lucky3 = document.getElementById("Lucky3");
+var Lucky4 = document.getElementById("Lucky4");
+var Doctor1 = document.getElementById("Doctor1");
+var Doctor2 = document.getElementById("Doctor2");
+var Doctor3 = document.getElementById("Doctor3");
+var Doctor4 = document.getElementById("Doctor4");
+var Lawyer1 = document.getElementById("Lawyer1");
+var Lawyer2 = document.getElementById("Lawyer2");
+var Lawyer3 = document.getElementById("Lawyer3");
+var Lawyer4 = document.getElementById("Lawyer4");
+var Gardener1 = document.getElementById("Gardener1");
+var Gardener2 = document.getElementById("Gardener2");
+var Gardener3 = document.getElementById("Gardener3");
+var Gardener4 = document.getElementById("Gardener4");
+var Philanthropist1 = document.getElementById("Philanthropist1");
+var Philanthropist2 = document.getElementById("Philanthropist2");
+var Philanthropist3 = document.getElementById("Philanthropist3");
+var Philanthropist4 = document.getElementById("Philanthropist4");
+var Factory1 = document.getElementById("Factory1");
+var Factory2 = document.getElementById("Factory2");
+var Factory3 = document.getElementById("Factory3");
+var Factory4 = document.getElementById("Factory4");
+var Jack1 = document.getElementById("Jack1");
+var Jack2 = document.getElementById("Jack2");
+var Jack3 = document.getElementById("Jack3");
+var Jack4 = document.getElementById("Jack4");
+home1.style.display = "none";
+home2.style.display = "none";
+home3.style.display = "none";
+Lucky1.style.display ="none";
+Lucky2.style.display ="none";
+Lucky3.style.display ="none";
+Lucky4.style.display ="none";
+Doctor1.style.display ="none";
+Doctor2.style.display ="none";
+Doctor3.style.display ="none";
+Doctor4.style.display ="none";
+Lawyer1.style.display ="none";
+Lawyer2.style.display ="none";
+Lawyer3.style.display ="none";
+Lawyer4.style.display ="none";
+Gardener1.style.display ="block";
+Gardener2.style.display ="block";
+Gardener3.style.display ="block";
+Gardener4.style.display ="block";
+Philanthropist1.style.display ="none";
+Philanthropist2.style.display ="none";
+Philanthropist3.style.display ="none";
+Philanthropist4.style.display ="none";
+Factory1.style.display ="none";
+Factory2.style.display ="none";
+Factory3.style.display ="none";
+Factory4.style.display ="none";
+Jack1.style.display ="none";
+Jack2.style.display ="none";
+Jack3.style.display ="none";
+Jack4.style.display ="none";
+}
+
+function Philanthropist(){
+var home1 = document.getElementById("home1");
+var home2 = document.getElementById("home2");
+var home3 = document.getElementById("home3");
+var Lucky1 = document.getElementById("Lucky1");
+var Lucky2 = document.getElementById("Lucky2");
+var Lucky3 = document.getElementById("Lucky3");
+var Lucky4 = document.getElementById("Lucky4");
+var Doctor1 = document.getElementById("Doctor1");
+var Doctor2 = document.getElementById("Doctor2");
+var Doctor3 = document.getElementById("Doctor3");
+var Doctor4 = document.getElementById("Doctor4");
+var Lawyer1 = document.getElementById("Lawyer1");
+var Lawyer2 = document.getElementById("Lawyer2");
+var Lawyer3 = document.getElementById("Lawyer3");
+var Lawyer4 = document.getElementById("Lawyer4");
+var Gardener1 = document.getElementById("Gardener1");
+var Gardener2 = document.getElementById("Gardener2");
+var Gardener3 = document.getElementById("Gardener3");
+var Gardener4 = document.getElementById("Gardener4");
+var Philanthropist1 = document.getElementById("Philanthropist1");
+var Philanthropist2 = document.getElementById("Philanthropist2");
+var Philanthropist3 = document.getElementById("Philanthropist3");
+var Philanthropist4 = document.getElementById("Philanthropist4");
+var Factory1 = document.getElementById("Factory1");
+var Factory2 = document.getElementById("Factory2");
+var Factory3 = document.getElementById("Factory3");
+var Factory4 = document.getElementById("Factory4");
+var Jack1 = document.getElementById("Jack1");
+var Jack2 = document.getElementById("Jack2");
+var Jack3 = document.getElementById("Jack3");
+var Jack4 = document.getElementById("Jack4");
+home1.style.display = "none";
+home2.style.display = "none";
+home3.style.display = "none";
+Lucky1.style.display ="none";
+Lucky2.style.display ="none";
+Lucky3.style.display ="none";
+Lucky4.style.display ="none";
+Doctor1.style.display ="none";
+Doctor2.style.display ="none";
+Doctor3.style.display ="none";
+Doctor4.style.display ="none";
+Lawyer1.style.display ="none";
+Lawyer2.style.display ="none";
+Lawyer3.style.display ="none";
+Lawyer4.style.display ="none";
+Gardener1.style.display ="none";
+Gardener2.style.display ="none";
+Gardener3.style.display ="none";
+Gardener4.style.display ="none";
+Philanthropist1.style.display ="block";
+Philanthropist2.style.display ="block";
+Philanthropist3.style.display ="block";
+Philanthropist4.style.display ="block";
+Factory1.style.display ="none";
+Factory2.style.display ="none";
+Factory3.style.display ="none";
+Factory4.style.display ="none";
+Jack1.style.display ="none";
+Jack2.style.display ="none";
+Jack3.style.display ="none";
+Jack4.style.display ="none";
+}
+
+function Factory(){
+var home1 = document.getElementById("home1");
+var home2 = document.getElementById("home2");
+var home3 = document.getElementById("home3");
+var Lucky1 = document.getElementById("Lucky1");
+var Lucky2 = document.getElementById("Lucky2");
+var Lucky3 = document.getElementById("Lucky3");
+var Lucky4 = document.getElementById("Lucky4");
+var Doctor1 = document.getElementById("Doctor1");
+var Doctor2 = document.getElementById("Doctor2");
+var Doctor3 = document.getElementById("Doctor3");
+var Doctor4 = document.getElementById("Doctor4");
+var Lawyer1 = document.getElementById("Lawyer1");
+var Lawyer2 = document.getElementById("Lawyer2");
+var Lawyer3 = document.getElementById("Lawyer3");
+var Lawyer4 = document.getElementById("Lawyer4");
+var Gardener1 = document.getElementById("Gardener1");
+var Gardener2 = document.getElementById("Gardener2");
+var Gardener3 = document.getElementById("Gardener3");
+var Gardener4 = document.getElementById("Gardener4");
+var Philanthropist1 = document.getElementById("Philanthropist1");
+var Philanthropist2 = document.getElementById("Philanthropist2");
+var Philanthropist3 = document.getElementById("Philanthropist3");
+var Philanthropist4 = document.getElementById("Philanthropist4");
+var Factory1 = document.getElementById("Factory1");
+var Factory2 = document.getElementById("Factory2");
+var Factory3 = document.getElementById("Factory3");
+var Factory4 = document.getElementById("Factory4");
+var Jack1 = document.getElementById("Jack1");
+var Jack2 = document.getElementById("Jack2");
+var Jack3 = document.getElementById("Jack3");
+var Jack4 = document.getElementById("Jack4");
+home1.style.display = "none";
+home2.style.display = "none";
+home3.style.display = "none";
+Lucky1.style.display ="none";
+Lucky2.style.display ="none";
+Lucky3.style.display ="none";
+Lucky4.style.display ="none";
+Doctor1.style.display ="none";
+Doctor2.style.display ="none";
+Doctor3.style.display ="none";
+Doctor4.style.display ="none";
+Lawyer1.style.display ="none";
+Lawyer2.style.display ="none";
+Lawyer3.style.display ="none";
+Lawyer4.style.display ="none";
+Gardener1.style.display ="none";
+Gardener2.style.display ="none";
+Gardener3.style.display ="none";
+Gardener4.style.display ="none";
+Philanthropist1.style.display ="none";
+Philanthropist2.style.display ="none";
+Philanthropist3.style.display ="none";
+Philanthropist4.style.display ="none";
+Factory1.style.display ="block";
+Factory2.style.display ="block";
+Factory3.style.display ="block";
+Factory4.style.display ="block";
+Jack1.style.display ="none";
+Jack2.style.display ="none";
+Jack3.style.display ="none";
+Jack4.style.display ="none";
+}
+
+function Jack(){
+var home1 = document.getElementById("home1");
+var home2 = document.getElementById("home2");
+var home3 = document.getElementById("home3");
+var Lucky1 = document.getElementById("Lucky1");
+var Lucky2 = document.getElementById("Lucky2");
+var Lucky3 = document.getElementById("Lucky3");
+var Lucky4 = document.getElementById("Lucky4");
+var Doctor1 = document.getElementById("Doctor1");
+var Doctor2 = document.getElementById("Doctor2");
+var Doctor3 = document.getElementById("Doctor3");
+var Doctor4 = document.getElementById("Doctor4");
+var Lawyer1 = document.getElementById("Lawyer1");
+var Lawyer2 = document.getElementById("Lawyer2");
+var Lawyer3 = document.getElementById("Lawyer3");
+var Lawyer4 = document.getElementById("Lawyer4");
+var Gardener1 = document.getElementById("Gardener1");
+var Gardener2 = document.getElementById("Gardener2");
+var Gardener3 = document.getElementById("Gardener3");
+var Gardener4 = document.getElementById("Gardener4");
+var Philanthropist1 = document.getElementById("Philanthropist1");
+var Philanthropist2 = document.getElementById("Philanthropist2");
+var Philanthropist3 = document.getElementById("Philanthropist3");
+var Philanthropist4 = document.getElementById("Philanthropist4");
+var Factory1 = document.getElementById("Factory1");
+var Factory2 = document.getElementById("Factory2");
+var Factory3 = document.getElementById("Factory3");
+var Factory4 = document.getElementById("Factory4");
+var Jack1 = document.getElementById("Jack1");
+var Jack2 = document.getElementById("Jack2");
+var Jack3 = document.getElementById("Jack3");
+var Jack4 = document.getElementById("Jack4");
+home1.style.display = "none";
+home2.style.display = "none";
+home3.style.display = "none";
+Lucky1.style.display ="none";
+Lucky2.style.display ="none";
+Lucky3.style.display ="none";
+Lucky4.style.display ="none";
+Doctor1.style.display ="none";
+Doctor2.style.display ="none";
+Doctor3.style.display ="none";
+Doctor4.style.display ="none";
+Lawyer1.style.display ="none";
+Lawyer2.style.display ="none";
+Lawyer3.style.display ="none";
+Lawyer4.style.display ="none";
+Gardener1.style.display ="none";
+Gardener2.style.display ="none";
+Gardener3.style.display ="none";
+Gardener4.style.display ="none";
+Philanthropist1.style.display ="none";
+Philanthropist2.style.display ="none";
+Philanthropist3.style.display ="none";
+Philanthropist4.style.display ="none";
+Factory1.style.display ="none";
+Factory2.style.display ="none";
+Factory3.style.display ="none";
+Factory4.style.display ="none";
+Jack1.style.display ="block";
+Jack2.style.display ="block";
+Jack3.style.display ="block";
+Jack4.style.display ="block";
+}
+</script>
+</body>
+</html>
